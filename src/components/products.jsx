@@ -23,11 +23,3 @@ const Products = () => {
     }
 export default Products;
 
-{/* <Row gutter={20} align="middle" justify="center">
-      {(imagedata).map(co => 
-        <Col xs={{span:12}}
-          md={{span:4}} 
-        ><Image key={counter++} src={co.image} className="product__images"  width="100%" fluid/>
-        </Col>
-      )}
-    </Row> */}

@@ -1,7 +1,7 @@
 import React from 'react'
 // import AwesomeSlider from 'react-awesome-slider';
 // import AwesomeSliderStyles from 'react-awesome-slider/src/styles';
-import {Row,Col} from 'react-simple-flex-grid'
+// import {Row,Col} from 'react-simple-flex-grid'
 import "react-simple-flex-grid/lib/main.css";
 import "../scss/Viewer.scss"
 import {Button} from 'react-bootstrap'
@@ -18,10 +18,9 @@ function Viewer() {
                 Our Products
             </div> 
             <div className="view__images">
-                <Image src={img1} width="300" className="image_view" />
-                <Image src={img2} width="300" className="image_view"/>
-                <Image src={img3} width="300" className="image_view"/>
-
+                <Image src={img1} width="30%" className="image_view" />
+                <Image src={img2} width="30%" className="image_view"/>
+                <Image src={img3} width="30%" className="image_view"/>
             </div>
             <Button className='view__button' variant="primary" href="/OurWork">See all products</Button>
         </div>
@@ -29,8 +28,3 @@ function Viewer() {
 }
 
 export default Viewer;
-{/* <AwesomeSlider cssModule={AwesomeSliderStyles}>
-                    <div data-src={img1} className="image" />
-                    <div data-src="../images/products/2.jpg"  />
-                    <div data-src="../images/products/3.jpg" />
-                </AwesomeSlider> */}
