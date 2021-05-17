@@ -1,0 +1,74 @@
+.features {
+
+  // A17A69
+  color: white;
+  background-color: #3f0d12;
+background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+
+
+ 
+  padding: 3rem 0 5rem 0;
+  background-size: cover;
+
+  &__container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 12rem;
+    justify-content: center;
+  }
+
+  &__title {
+    text-align: center;
+    padding-bottom: 5rem;
+
+    font-family: "Playfair Display", serif;
+    font-size: 3rem;
+
+    &--header {
+      padding-top: 8rem;
+      font-size: 7rem;
+    }
+    &--footer {
+      font-size: 3.8rem;
+      
+    }
+  }
+
+  &__col {
+    height:100%;
+    text-align: center;
+    border: 2px solid white;
+    width: 25rem;
+    padding: 4rem;
+    border-radius: 10px;
+
+    &--title {
+      padding-bottom: 2rem;
+    }
+    &--logo-green {
+      padding-bottom: 2rem;
+
+      color: white;
+
+      color: white;
+    }
+
+    &--logo-orange {
+      padding-bottom: 2rem;
+      color: white;
+    }
+  }
+}
+ion-icon {
+  font-size: 40px;
+}
+
+@media (max-width: 550px) {
+  .features__container {
+    padding-left: 25%;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 60px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,23 @@
+@import "Header.scss";
+@import "Features.scss";
+@import "BookNow.scss";
+@import "Pricing.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,900&display=swap');
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 2rem;
+  box-sizing: border-box;
+}
+*{
+  font-family: 'Karla', sans-serif;
+}

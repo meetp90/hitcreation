@@ -1,0 +1,24 @@
+h1{
+    padding-left: 13%;
+    font-size: 4rem;
+    
+}
+
+Table{
+    text-align:center ;
+}
+.Children{
+    padding-left:2rem ;
+}
+.terms{
+    position: absolute;
+    left: 70%;
+    padding-left: 2rem ;
+}
+
+@media (max-width : 600px){
+    .terms{
+        left: 40%;
+        width: 100%;
+    }
+}
