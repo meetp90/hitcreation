@@ -7,16 +7,19 @@ import Pricing from './Pricing';
 import OurWork from "./OurWork";
 import AboutUs from './AboutUs'; 
 import Viewer from "./Viewer";
+import Bottom from "./Bottom";
 import '../scss/App.scss';
 import {Route , BrowserRouter as Router} from 'react-router-dom';
 export default function App() {
     return (
+        
         <Router>
             <Route exact path='/' >
                 <Header/>
                 <Features/>
-                <BookNow />
                 <Viewer />
+                <BookNow />
+                <Bottom />
             </Route>
             <Route path='/pricing' >
                 <Pricing />

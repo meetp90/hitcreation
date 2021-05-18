@@ -9,7 +9,6 @@
         font-weight: bold;
         display: flex;
         justify-content: space-between;
-
     }
     
     &__content{
@@ -26,8 +25,13 @@
     
 }
 @media only screen and (max-width: 600px){
+    .About__owner{
+        display: block;
+    }
     .About__image{
-        width: 30%;
+        width: 50%;
+        margin-left: 20%;
+        margin-right: auto;
     }
     .About__review--header{
         padding-left:30%;

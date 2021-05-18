@@ -15,7 +15,7 @@ export default function Features() {
                     <div >
                         <h3 className="features__col--title">Call Designer</h3>
                         <p className="features__col--desc">
-                            Click to place your order / Call on 9022607670
+                            Click to place your order / Call on 99203 82464
                         </p>
                     </div>
                 </div>

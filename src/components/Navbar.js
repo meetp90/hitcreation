@@ -23,12 +23,12 @@ export class navbar extends React.Component {
     <Nav className="mr-auto">
     </Nav>
     <Nav>
-      <Nav.Link  href="/OurWork" > <h2> Our Work</h2></Nav.Link>
+      <Nav.Link  href="/OurWork" > <h2 style={{color:"black",fontWeight:"bold"}}> Our Work</h2></Nav.Link>
       <Nav.Link  href="/Pricing">
-        <h2>Estimated Cost</h2>
+        <h2 style={{color:"black",fontWeight:"bold"}}>Estimated Cost</h2>
       </Nav.Link>
       <Nav.Link  href="/AboutUs">
-        <h2>About Us</h2>
+        <h2 style={{color:"black",fontWeight:"bold"}}>About Us</h2>
       </Nav.Link>
     </Nav>
   </Navbar.Collapse>
