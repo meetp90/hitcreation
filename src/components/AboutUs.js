@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import {Image,Card,CardDeck } from "react-bootstrap"
 import Owner from '../images/motapapa.jpg'
+import Bottom from "./Bottom"
 import '../scss/AboutUs.scss';
 import sh from "../images/customers/shruti.jpg"
 import rp from "../images/customers/ramdas_padhye.jpg"
@@ -122,7 +123,9 @@ Thank u Hiteshbhai for always being our friend in need for our last minute parti
                     
                     </CardDeck>
                 </div>
+                
         </div>
+        <Bottom />
     </>
     );
 }

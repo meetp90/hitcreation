@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Products from './products'
+import Bottom from './Bottom'
 import '../scss/OurWork.scss'
 function OurWork() {
     return (
@@ -9,6 +10,7 @@ function OurWork() {
             <div className='OurWork'>
                 <br></br><br></br><br></br>
                 <Products />
+                <Bottom />  
             </div>
         </div>
     )  

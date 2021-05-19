@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar'
 import '../scss/Pricing.scss'
+import Bottom from "./Bottom"
 // import ReactTable from 'react-table'
 import {Table } from 'react-bootstrap'
 function Pricing() {
@@ -144,7 +145,7 @@ function Pricing() {
         </Table>
         <div className="Children"> Children below the height of 3'5 feet are eligible for 20% off </div>
         <div className="terms">*Terms and condtions applied </div>
-
+        <Bottom />
     </div>
     )
 }
