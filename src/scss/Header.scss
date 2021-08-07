@@ -37,7 +37,7 @@ hr{
       -webkit-text-fill-color: transparent;
       
       font-weight: bold;
-      letter-spacing: 6px;
+      letter-spacing: 5px;
       font-size: 5rem;
     }
     &--subtitle {
@@ -65,9 +65,13 @@ hr{
   .header__main{
     top:60%
   }
+  .header__main--title{
+    font-size: 4.9rem;
+  }
   .header__main--subtitle{   
     width: 70%;
-    left: 50%;
-    height: 50%;
+    left: 48%;
+    height: 35%;
+    letter-spacing: px;
   }
 }
