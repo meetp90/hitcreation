@@ -1,3 +1,29 @@
-.ourwork{
-    margin-top: 100px;
+.OurWork{
+    
+    margin: 100px 100px ;
+    overflow: hidden;
+    flex: 1 1 auto;
+    &__men--title,&__women--title{
+    border: 1px solid black;
+        margin-right: 50px;
+        &:hover{
+            transform: scale(1.1);
+            transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+            opacity: 0.9;
+            cursor: pointer;
+        }
+    }
+
+
+    &__kids--title{
+    border: 1px solid black;
+        &:hover{
+            transform: scale(1.1);
+            transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+            opacity: 0.9;
+            cursor: pointer;
+        }
+    }
+    
+    
 }

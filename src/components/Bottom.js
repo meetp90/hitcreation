@@ -19,7 +19,7 @@ class Bottom extends React.Component{
                 <a className="Footer__links" href="/OurWork">Our Work</a>
                 </li>
                 <li >
-                <a className="Footer__links" href="/pricing">pricing</a>
+                <a className="Footer__links" href="/pricing">Pricing</a>
                 </li>
                 <li >
                 <a  className="Footer__links" href="/AboutUs">About Us</a>

@@ -13,10 +13,12 @@ export default function Features() {
                         <ion-icon name="call-outline"></ion-icon>
                     </div>
                     <div >
-                        <h3 className="features__col--title">Call Designer</h3>
+                    <a href="tel:+919920382464">
+                        <h3 className="features__col--title">  Call Designer </h3>
                         <p className="features__col--desc">
                             Click to place your order / Call on 99203 82464
                         </p>
+                        </a>
                     </div>
                 </div>
                 <div className="features__col">

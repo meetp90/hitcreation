@@ -34,7 +34,7 @@ function Viewer() {
                 </Carousel>
   
             </div>
-            <Button className='view__button' variant="primary" href="/OurWork">See all products</Button>
+            {/* <Button className='view__button' variant="primary" href="/OurWork">See all products</Button> */}
         </div>
     )
 }

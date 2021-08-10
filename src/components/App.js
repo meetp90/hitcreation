@@ -18,7 +18,7 @@ export default function App() {
                 <Header/>
                 <Features/>
                 <Viewer />
-                <BookNow />
+                {/* <BookNow /> */}
                 <Bottom />
             </Route>
             <Route path='/pricing' >

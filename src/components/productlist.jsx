@@ -21,38 +21,29 @@ import img20 from '../images/products/20.jpg';
 import img21 from '../images/products/21.jpg';
 import img22 from '../images/products/22.jpg';
 import img23 from '../images/products/23.jpg';
-// import img24 from '../images/products/24.jpg';
-// import img25 from '../images/products/25.jpg';
-// import img26 from '../images/products/26.jpg';
-// import img27 from '../images/products/27.jpg';
-
 
 export const imagedata = [
-    { "name": "Nasa", "image": img1 },
-    { "name": "Microsoft", "image": img2 },
-    { "name": "Phillips", "image": img3 },
-    { "name": "Fox", "image": img4 },
-    { "name": "Sony", "image": img5 },
-    { "name": "IBM", "image": img6 },
-    { "name": "Toshiba", "image": img7 },
-    { "name": "Volvo", "image": img8 },
-    { "name": "Volvo", "image": img9 },
-    { "name": "Volvo", "image": img10 },
-    { "name": "Volvo", "image": img11 },
-    { "name": "Volvo", "image": img12 },
-    { "name": "Volvo", "image": img13 },
-    { "name": "Volvo", "image": img14 },
-    { "name": "Volvo", "image": img15 },
-    { "name": "Volvo", "image": img16 },
-    { "name": "Volvo", "image": img17 },
-    { "name": "Volvo", "image": img18 },
-    { "name": "Volvo", "image": img19 },
-    { "name": "Volvo", "image": img20 },
-    { "name": "Volvo", "image": img21 },
-    { "name": "Volvo", "image": img22 },
-    { "name": "Volvo", "image": img23 },
-    // { "name": "Volvo", "image": img24 },
-    // { "name": "Volvo", "image": img25 },
-    // { "name": "Volvo", "image": img26 },
-    // { "name": "Volvo", "image": img27 },
+    { "name": "", "image": img1 },
+    { "name": "", "image": img2 },
+    { "name": "", "image": img3 },
+    { "name": "", "image": img4 },
+    { "name": "", "image": img5 },
+    { "name": "", "image": img6 },
+    { "name": "", "image": img7 },
+    { "name": "", "image": img8 },
+    { "name": "", "image": img9 },
+    { "name": "", "image": img10 },
+    { "name": "", "image": img11 },
+    { "name": "", "image": img12 },
+    { "name": "", "image": img13 },
+    { "name": "", "image": img14 },
+    { "name": "", "image": img15 },
+    { "name": "", "image": img16 },
+    { "name": "", "image": img17 },
+    { "name": "", "image": img18 },
+    { "name": "", "image": img19 },
+    { "name": "", "image": img20 },
+    { "name": "", "image": img21 },
+    { "name": "", "image": img22 },
+    { "name": "", "image": img23 }
   ]

@@ -20,14 +20,7 @@ class BookNow extends React.Component {
       Address: this.state.Address,
       City: this.state.City,
       Zip: this.state.Zip
-    })
-    this.setState({
-        Name:"",
-        Phone:"",
-        Address:"",
-        City:"",
-        Zip:""
-      })
+    })  
   }
   onChangeName = event => {
     this.setState({ Name: event.target.value })
