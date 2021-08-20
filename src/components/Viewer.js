@@ -1,6 +1,4 @@
 import React from 'react'
-// import AwesomeSlider from 'react-awesome-slider';
-// import AwesomeSliderStyles from 'react-awesome-slider/src/styles';
 // import {Row,Col} from 'react-simple-flex-grid'
 import "react-simple-flex-grid/lib/main.css";
 import "../scss/Viewer.scss"
@@ -34,7 +32,7 @@ function Viewer() {
                 </Carousel>
   
             </div>
-            {/* <Button className='view__button' variant="primary" href="/OurWork">See all products</Button> */}
+            <Button className='view__button' variant="primary" href="/OurWork">See all products</Button>
         </div>
     )
 }
